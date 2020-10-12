@@ -1,0 +1,16 @@
+table{
+	border: 1 px soild silver;
+}
+td:hover {
+	background-color: pink;
+	color: black;
+}
+tr, th {
+	background-color: black;
+	color: cornsilk;
+}
+tr, td {
+	background-color: black;
+	color: white;
+}
+	

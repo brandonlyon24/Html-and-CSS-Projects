@@ -1,4 +1,4 @@
-alert('Chcek out my Website!')
+alert('Check out my Website!')
 <script>
 	function My_Frist_Function() {
 		var string = "Kiss me, Im Irish!" ;
