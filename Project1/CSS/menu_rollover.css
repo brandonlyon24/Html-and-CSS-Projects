@@ -1,0 +1,78 @@
+body{
+    background: whitesmoke;
+}
+
+
+.wrap {
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+
+
+.menu-container {
+    top: 0;
+    left: 0;
+    /* To the top edge or the screen */
+    position: absolute;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.menu {
+    font: bold 12px/10px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    color: darkgreen;
+    display: inline;
+    margin-right: -2px;
+    position: relative;
+    padding: 12px 40px;
+    border: 1px solid purple;
+    border-radius: 1.5px;
+    background-color: seagreen;
+    cursor: pointer;
+}
+
+
+.menu li:hover {
+    background-color: purple;
+    color:  green;
+}
+
+
+.menu li:hover ul {
+    display: block;
+    opacity: 1;
+    /*   While not being hovered, drop down-menu hides 
+    This also advoids a block level bug*/
+    visibility: visible;
+}
+
+.submenu {
+    padding: 0%;
+    left: 0;
+    position: absolute;
+    top: 43.5px;
+    width: 125px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.submenu li {
+    background-color: violet;
+    display: block;
+    color: yellow;
+}
+
+.submenu li:hover {
+    color: mediumblue;
+    background-color: purple;
+}
