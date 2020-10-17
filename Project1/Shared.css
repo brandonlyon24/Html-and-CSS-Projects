@@ -158,7 +158,7 @@ Home Selection
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
-    text-align: left;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: 2;
     font-weight: 900;
@@ -248,7 +248,7 @@ Home Selection
     padding: 12px 12px;
     width: 70%;
     border: 1px solid #808080;
-    margin: 24 auto;
+    margin: 2% auto;
     border-radius: 7px;
     background: rgb(227,222,222);
     text-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
@@ -278,13 +278,13 @@ Home Selection
 }
 
 
-.font-spacer {
+.form-spacer {
     padding: 30px 39px;
 }
 
 .terms {
+    margin: 30px 1px 0 0;
     margin-top: 13%;
-    margin: 30px 1px 0 0 ;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -302,7 +302,7 @@ Home Selection
     text-decoration: underline;
 }
 
-.submit input [type="submit"] {
+.submit input[type="submit"] {
     color: rgb(225,225,225);
     cursor: pointer;
     border: none;
@@ -340,7 +340,7 @@ Home Selection
     }
 }
 
-@media all and (max-width::381px) and (min-width:200px) {
+@media all and (max-width:381px) and (min-width:200px) {
     .head-main{
         font-size: 24px;
     }

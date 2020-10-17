@@ -94,7 +94,7 @@ Home selection animation
     cursor: pointer;
 }
 
-.photo-overlay :hover {
+.photo-overlay:hover {
     opacity: 1;
 }
 
@@ -103,7 +103,7 @@ Home selection animation
     transform-origin: 50% 50%;
 }
 
-.photo :hover img {
+.photo:hover img {
     transform: scale(1.1);
 }
 
